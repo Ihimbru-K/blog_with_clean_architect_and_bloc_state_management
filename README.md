@@ -1,4 +1,4 @@
-# bloggy
+# bloggy.
 
 A new Flutter project
 
