@@ -4,7 +4,7 @@ import 'package:bloggy/features/auth/domain/repository/auth_repository.dart';
 import 'package:fpdart/fpdart.dart';
 
 // Created user signup parameters class since use case takes 3 parameters
-//it must fulfil a contract........
+//it must fulfil a contract.......
 class UserSignUp implements UseCase<String, UserSignUpParams> {
   final AuthRepository authRepository;
 
