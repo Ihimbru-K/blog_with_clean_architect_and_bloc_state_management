@@ -2,7 +2,7 @@ import 'package:bloggy/core/secrets/app_secrets.dart';
 import 'package:bloggy/core/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-
+//
 void main() async{
   WidgetsFlutterBinding.ensureInitialized(); //always add this line when working with a future before the main app
  final supabase = await Supabase.initialize(url: AppSecrets.supabaseUrl, anonKey: AppSecrets.supabaseAnnonKey);
